@@ -6,7 +6,7 @@ local yt = "https://youtube.com/@ykdaren"
 local dc = "https://discord.gg/d8R3j4rJ3A"
 
 local Window = MacLib:Window({
-	Title = "dscripts | Loader",
+	Title = "strive | Loader",
 	Subtitle = "v1 | ...",
 	Size = UDim2.fromOffset(868, 650),
 	DragStyle = 1,
@@ -79,7 +79,7 @@ sections.MainSection1:Header({
 })
 
 sections.MainSection1:Button({
-	Name = "dscripts | Murder Mystery 2",
+	Name = "strive | Murder Mystery 2",
 	Callback = function()
 		if placeId == mm2 then
 			loadstring(game:HttpGet("https://rebrand.ly/dscripts-mm2"))()
@@ -94,7 +94,7 @@ sections.MainSection1:Button({
 })
 
 sections.MainSection1:Button({
-	Name = "dscripts | Shrimp Game",
+	Name = "strive | Shrimp Game",
 	Callback = function()
 		if placeId == sg then
 			loadstring(game:HttpGet("https://rebrand.ly/dscripts-sg"))()
@@ -110,7 +110,7 @@ sections.MainSection1:Button({
 
 sections.MainSection1:Paragraph({
 	Header = "Thank you!",
-	Body = "More games coming to dscripts soon!"
+	Body = "More games coming to strive soon!"
 })
 
 -- socials
@@ -154,7 +154,7 @@ sections.Credits:Header({
 
 sections.Credits:Paragraph({
 	Header = "Developers:",
-	Body = "Maclib Developer: biggaboy212. dscripts developer: daren, dainstro, aquabearry and clowdy. dscripts owner: daren. temic owner: clowdy. temic developers: dainstro, timesecay, clowdy"
+	Body = "Maclib Developer: biggaboy212. strive developer: daren, dainstro, aquabearry and clowdy. strive owner: daren. temic owner: clowdy. temic developers: dainstro, timesecay, clowdy"
 })
 
 tabs.Main:Select()
